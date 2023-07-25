@@ -207,6 +207,11 @@ public class Section {
         return Objects.hash(id);
     }
 
+    public void disconnectMiddleSection() {
+
+
+    }
+
     public static class Builder {
 
         protected Long id;
