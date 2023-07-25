@@ -198,17 +198,6 @@ public class Section {
         return Objects.hash(id);
     }
 
-    @Override
-    public String toString() {
-        return "Section{" +
-                "id=" + id +
-                ", distance=" + distance +
-                ", upStation=" + upStation +
-                ", downStation=" + downStation +
-                ", downSection=" + downSection +
-                '}';
-    }
-
     public static class Builder {
 
         protected Long id;

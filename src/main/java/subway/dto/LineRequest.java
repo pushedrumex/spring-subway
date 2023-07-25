@@ -52,15 +52,4 @@ public class LineRequest {
     public Integer getDistance() {
         return distance;
     }
-
-    @Override
-    public String toString() {
-        return "LineRequest{" +
-                "name='" + name + '\'' +
-                ", color='" + color + '\'' +
-                ", upStationId='" + upStationId + '\'' +
-                ", downStationId='" + downStationId + '\'' +
-                ", distance=" + distance +
-                '}';
-    }
 }
